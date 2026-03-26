@@ -169,6 +169,7 @@ body {
 	color: var(--text);
 	line-height: 1.6;
 	font-size: 13px;
+	background: var(--bg);
 }
 
 /* ROOT */
@@ -178,7 +179,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: var(--bg);
+	overflow: hidden;
 }
 
 h1 {
